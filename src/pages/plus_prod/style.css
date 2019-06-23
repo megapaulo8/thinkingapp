@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+.toolbar__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    height: 75px;
+    background-color: #2B475E;
+}
+
+.toolbar__img {
+    margin: 0 auto;
+    width: 43px;
+    height: 57px;
+}
+
+.back {
+    transform: rotate(270deg);
+    margin: auto -50px auto 10px;
+}
+
+.content__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__wrapper--title {
+    font-size: 24px;
+    color: #2B475E;
+}
+
+.content__wrapper--line {
+    width: 159px;
+    color: #2B475E;
+}
+
+.cards__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 20px 90px 20px;
+    align-items: center;
+    background-color: #2B475E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: 340px;
+    height: 100vh;
+    text-align: center;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 75px;
+    background-color: #2B475E;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.card__wrapper--select {
+    margin: 15px auto;
+    padding: 8px 10px;
+    border-radius: 6px;
+    outline:none;
+    width: 300px;
+    border-color:#FDBA4F;
+    color: #FDBA4F;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+.card__wrapper--input {
+    margin: 15px auto;
+    padding: 8px 10px;
+    border-radius: 6px;
+    outline:none;
+    width: 276px;
+    border-color:#FDBA4F;
+    color: #FDBA4F;
+    font-size: 16px;
+}
+
+.card__wrapper--input::placeholder {
+    color: #FDBA4F;
+}
+
+.card__wrapper--textarea {
+    margin: 15px auto;
+    padding: 8px 10px;
+    border-radius: 6px;
+    outline:none;
+    width: 276px;
+    border-color:#FDBA4F;
+    color: #FDBA4F;
+    font-size: 16px;
+}
+
+.card__wrapper--textarea::placeholder {
+    color: #FDBA4F;
+}
+
+.card__wrapper--button {
+    font-size: 18px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    margin: 20px 10px;
+    padding: 8px 10px;
+    background: #FDBA4F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.card__wrapper--button:hover {
+    background: rgb(240, 163, 40);
+}

@@ -10,5 +10,10 @@
     $prod_value = $_REQUEST['prod_value'];
     require_once $_SERVER['DOCUMENT_ROOT'].'./thinkingapp/src/procedures/classes/product.php';
     $product = new Product();
-    var_dump ($product->insertNewProduct($prod_type,$entry_type,$prod_name,$prod_desc,$prod_amount,$expiration_date,$prod_value,$id));
+    if($product->insertNewProduct($prod_type,$entry_type,$prod_name,$prod_desc,$prod_amount,$expiration_date,$prod_value,$id)){
+        return $product;
+    }
+    else {
+        return FALSE;
+    }
 ?>

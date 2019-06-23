@@ -24,7 +24,7 @@
     <div class="content__wrapper">
         <p class="content__wrapper--title">Adicione um novo Produto</p>
         <hr class="content__wrapper--line" />
-        <form method="POST" name="insert_form" action="./../../procedures/action/insertProduct.php" class="card__wrapper">
+        <form method="POST" name="insert_form" class="card__wrapper">
             <select class="card__wrapper--select" id="prod_type" name="prod_type" required>
                 <option value="" selected disabled>Produto</option> 
                 <option value="food">Alimento</option>
@@ -54,7 +54,7 @@
             </select>
             <input type="text" class="card__wrapper--input" id="expiration_date" name="expiration_date" placeholder="Data de Validade (ou deixe em branco)" />
             <input type="text" class="card__wrapper--input" id="prod_value" name="prod_value" placeholder="Valor (ou deixe em branco)" />
-            <button type="submit" class="card__wrapper--button">Adicionar</button>
+            <button type="submit" class="card__wrapper--button" onClick="return validate()">Adicionar</button>
         </form>
     </div>
     <div class="footer__wrapper">
@@ -119,7 +119,7 @@
                 return false;
             }
             else {
-                swa1("Inserindo no banco de dados...");
+                alert("Inserindo no banco de dados...");
                 // Método post do Jquery
                 $.post('./../../procedures/action/insertProduct.php', {
                     prod_type:prod_type,
@@ -130,8 +130,8 @@
                     expiration_date:expiration_date,
                     prod_value:prod_value
                 }, function(resposta){
-                    if(resposta == '1'){
-                        swa1('Produto inserido com sucesso no Banco de Dados!');
+                    if(resposta = '1'){
+                        alert('Produto inserido com sucesso no Banco de Dados!');
                         document.getElementById('prod_type').value='';
                         document.getElementById('entry_type').value='';
                         document.getElementById('prod_name').value='';

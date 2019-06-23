@@ -52,12 +52,12 @@
                         <h2 class="modal__title">Retirar Produtos</h2><br>
                         <p>Nome do Produto: <font color="green">'.$prod_info['name'].'</font></p>
                         <p>Quantidade total do Produto: <font color="green">'.$prod_info['amount'].'</font></p>
-                        <form method="POST" name="insert_form">
+                        <form method="POST" name="insert_form" action="./../../procedures/action/deleteProduct.php">
                         <div>
                             <input type="number" name="amount" id="amount" class="modal__output--number" placeholder="Quantidade para retirar" required />
                         </div><br>
                         <input type="text" class="id__hidden" name="id" value="'.$prod_info['id'].'" id="id"></input>
-                        <button type="submit" class="modal__output--submit" onClick="return validate()">Confirmar</button>
+                        <button type="submit" class="modal__output--submit">Confirmar</button>
                         </form>
                         </div>
                     </div>
@@ -73,35 +73,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        function validate() {
-            var amount = insert_form.amount.value;
-            var id = insert_form.id.value;
-            if (amount == ""){
-                alert('Escolha a quantidade a retirar');
-                insert_form.amount.focus();
-                return false;
-            }
-            else {
-                alert("Retirando do banco de dados...");
-                // Método post do Jquery
-                $.post('./../../procedures/action/deleteProduct.php', {
-                    amount:amount,
-                    id:id
-                }, function(resposta){
-                    if(resposta){
-                        alert('Erro! Produto não retirado');
-                        location.reload();
-                    }
-                    else {
-                        alert('Produto retirado com sucesso no Banco de Dados!');
-                        location.reload();
-                    }
-                });
-                return false;
-            }
-        }
-    </script>
 </body>
 
 </html>

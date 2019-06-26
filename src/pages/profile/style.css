@@ -102,3 +102,36 @@ body {
 .exit__button:hover {
     background: rgb(202, 6, 6);
 }
+
+.footer__wrapper--link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.footer__wrapper--button {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    opacity: 0.5;
+    margin-bottom: -10px;
+}
+
+.footer__wrapper--text {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.footer__wrapper--button-active {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    margin-bottom: -10px;
+}
+
+.footer__wrapper--text-active {
+    color: #ffffff;
+}

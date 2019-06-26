@@ -58,9 +58,18 @@
         </form>
     </div>
     <div class="footer__wrapper">
-        <a href=""><img src="./../../../assets/plus_product-active.png" /></a>
-        <a href="./../less_prod/"><img src="./../../../assets/less_product.png" /></a>
-        <a href="./../profile/"><img src="./../../../assets/profile.png" /></a>
+        <a href="./../plus_prod/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button-active" src="./../../../assets/plus-button.png" />
+            <p class="footer__wrapper--text-active">Produto</p>
+        </a>
+        <a href="./../less_prod/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/minus.png" />
+            <p class="footer__wrapper--text">Produto</p>
+        </a>
+        <a href="./../profile/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/user.png" />
+            <p class="footer__wrapper--text">Perfil</p>
+        </a>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

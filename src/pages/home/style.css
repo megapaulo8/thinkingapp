@@ -95,6 +95,27 @@ body {
     height: 75px;
     background-color: #2B475E;
     position: fixed;
-    left: 0;
     bottom: 0;
+}
+
+.footer__wrapper--link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.footer__wrapper--button {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    opacity: 0.5;
+    margin-bottom: -10px;
+}
+
+.footer__wrapper--text {
+    color: #ffffff;
+    opacity: 0.5;
 }

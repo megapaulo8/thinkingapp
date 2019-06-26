@@ -54,7 +54,7 @@
                         <p>Quantidade total do Produto: <font color="green">'.$prod_info['amount'].'</font></p>
                         <form method="POST" name="insert_form" action="./../../procedures/action/deleteProduct.php">
                         <div>
-                            <input type="number" name="amount" id="amount" class="modal__output--number" placeholder="Quantidade para retirar" required />
+                            <input type="number" onkeypress="return isNumberKey(event)" name="amount" id="amount" class="modal__output--number" placeholder="Quantidade para retirar" required />
                         </div><br>
                         <input type="text" class="id__hidden" name="id" value="'.$prod_info['id'].'" id="id"></input>
                         <button type="submit" class="modal__output--submit">Confirmar</button>
@@ -67,12 +67,31 @@
         </table>
     </div>
     <div class="footer__wrapper">
-        <a href="./../plus_prod/"><img src="./../../../assets/plus_product.png" /></a>
-        <a href=""><img src="./../../../assets/less_product-active.png" /></a>
-        <a href="./../profile/"><img src="./../../../assets/profile.png" /></a>
+        <a href="./../plus_prod/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/plus-button.png" />
+            <p class="footer__wrapper--text">Produto</p>
+        </a>
+        <a href="./../less_prod/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button-active" src="./../../../assets/minus.png" />
+            <p class="footer__wrapper--text-active">Produto</p>
+        </a>
+        <a href="./../profile/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/user.png" />
+            <p class="footer__wrapper--text">Perfil</p>
+        </a>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        function isNumberKey(evt)
+        {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+
+            return true;
+        }
+    </script>
 </body>
 
 </html>

@@ -43,9 +43,18 @@
         </div>
     </div>
     <div class="footer__wrapper">
-        <a href="./../plus_prod/"><img src="./../../../assets/plus_product.png" /></a>
-        <a href="./../less_prod/"><img src="./../../../assets/less_product.png" /></a>
-        <a href="./../profile/"><img src="./../../../assets/profile.png" /></a>
+        <a href="./../plus_prod/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/plus-button.png" />
+            <p class="footer__wrapper--text">Produto</p>
+        </a>
+        <a href="./../less_prod/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/minus.png" />
+            <p class="footer__wrapper--text">Produto</p>
+        </a>
+        <a href="./../profile/" class="footer__wrapper--link">
+            <img class="footer__wrapper--button" src="./../../../assets/user.png" />
+            <p class="footer__wrapper--text">Perfil</p>
+        </a>
     </div>
 </body>
 

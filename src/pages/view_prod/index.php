@@ -87,45 +87,45 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script>
         function validate() {
-            var prod_type = insert_form.prod_type.value;
-            var entry_type = insert_form.entry_type.value;
-            var prod_name = insert_form.prod_name.value;
-            var prod_desc = insert_form.prod_desc.value;
-            var prod_amount = insert_form.prod_amount.value;
-            var expiration_date = insert_form.expiration_date.value;
-            var prod_value = insert_form.prod_value.value;
+            let prod_type = insert_form.prod_type.value;
+            let entry_type = insert_form.entry_type.value;
+            let prod_name = insert_form.prod_name.value;
+            let prod_desc = insert_form.prod_desc.value;
+            let prod_amount = insert_form.prod_amount.value;
+            let expiration_date = insert_form.expiration_date.value;
+            let prod_value = insert_form.prod_value.value;
             if (prod_type == ""){
                 alert('Escolha o tipo do Produto');
                 insert_form.prod_type.focus();
                 return false;
             }
             else if (entry_type == ""){
-                alerta('Escolha o tipo de Entrada');
+                alert('Escolha o tipo de Entrada');
                 insert_form.entry_type.focus();
                 return false;
             }
             else if (prod_name == ""){
-                alerta('Digite o nome do Produto');
+                alert('Digite o nome do Produto');
                 insert_form.prod_name.focus();
                 return false;
             }
             else if (prod_desc == ""){
-                alerta('Escreva uma descrição para o Produto');
+                alert('Escreva uma descrição para o Produto');
                 insert_form.prod_desc.focus();
                 return false;
             }
             else if (prod_amount == ""){
-                alerta('Escolha a quantidade do Produto');
+                alert('Escolha a quantidade do Produto');
                 insert_form.prod_amount.focus();
                 return false;
             }
             else if (expiration_date == ""){
-                alerta('Digite a data de Validade');
+                alert('Digite a data de Validade');
                 insert_form.expiration_date.focus();
                 return false;
             }
             else if (prod_value == ""){
-                alerta('Digite o valor total do Produto');
+                alert('Digite o valor total do Produto');
                 insert_form.prod_value.focus();
                 return false;
             }

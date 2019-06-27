@@ -5,6 +5,6 @@
     $product = new Product();
     $consult_product = $product->getProductByID($id);
     $new_amount = $consult_product['amount'] - $amount;
-    $product->updateAmountProductByID($id,$new_amount);
+    $product->updateAmountProductByID($id,$new_amount,$amount);
     header("Location: ./../../pages/less_prod/");
 ?>

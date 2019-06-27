@@ -71,8 +71,9 @@
             $this->setExpirationDate($expiration_date);
             $this->setProductValue($value);
             $connection = new Connection();
+            $current_date = date("Y-m-d H:i:s");
             $new_product = mysqli_query($connection->connection(),"INSERT INTO products (prod_type,entry_type,name,description,amount,expiration_date,value,id_user) VALUES ('{$this->getProductType()}','{$this->getEntryType()}','{$this->getProductName()}','{$this->getProductDescription()}','{$this->getProductAmount()}','{$this->getExpirationDate()}','{$this->getProductValue()}','{$id}')");
-            $connection->disconnect($connection->connection());
+            mysqli_query($connection->connection(),"INSERT INTO products_log (prod_type,entry_type,name,description,amount,expiration_date,value,id_user,action_type,action_date) VALUES ('{$this->getProductType()}','{$this->getEntryType()}','{$this->getProductName()}','{$this->getProductDescription()}','{$this->getProductAmount()}','{$this->getExpirationDate()}','{$this->getProductValue()}','{$id}','input','{$current_date}')");
             return $new_product;
         }
 
@@ -97,9 +98,21 @@
             return $delete_product;
         }
 
-        public function updateAmountProductByID($id,$amount){
+        public function updateAmountProductByID($id,$amount,$last_amount){
             $connection = new Connection();
             $update_product = mysqli_query($connection->connection(),"UPDATE products SET amount = '{$amount}' WHERE id = '{$id}'");
+            $res_product_data = mysqli_query($connection->connection(),"SELECT * FROM products WHERE id = '{$id}'");
+            $product_data = mysqli_fetch_assoc($res_product_data);
+            $this->setProductType($product_data['prod_type']);
+            $this->setEntryType($product_data['entry_type']);
+            $this->setProductName($product_data['name']);
+            $this->setProductDescription($product_data['description']);
+            $this->setProductAmount($last_amount);
+            $this->setExpirationDate($product_data['expiration_date']);
+            $this->setProductValue($product_data['value']);
+            $id_user = $product_data['id_user'];
+            $current_date = date("Y-m-d H:i:s");
+            mysqli_query($connection->connection(),"INSERT INTO products_log (prod_type,entry_type,name,description,amount,expiration_date,value,id_user,action_type,action_date) VALUES ('{$this->getProductType()}','{$this->getEntryType()}','{$this->getProductName()}','{$this->getProductDescription()}','{$this->getProductAmount()}','{$this->getExpirationDate()}','{$this->getProductValue()}','{$id_user}','output','{$current_date}')");
             $final_check = $this->getProductByID($id);
             if ($final_check['amount'] == 0){
                 $connection->disconnect($connection->connection());

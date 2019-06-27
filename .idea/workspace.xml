@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd5c6f3-e563-4483-93a0-4e3664638985" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/less_prod/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/less_prod/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less_product-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/less_product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plus_product-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/plus_product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/profile-active.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/profile.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/view_prod/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/view_prod/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/view_prod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/view_prod/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/procedures/action/deleteProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/procedures/action/deleteProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/procedures/classes/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/procedures/classes/product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,38 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/plus_prod/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1921">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/procedures/action/insertProduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/procedures/classes/product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/less_prod/index.php">
+        <entry file="file://$PROJECT_DIR$/src/procedures/action/deleteProduct.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="87" column="67" lean-forward="true" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/view_prod/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/view_prod/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/less_prod/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="195" selection-start-line="195" selection-end-line="226" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -85,9 +90,11 @@
         <option value="$PROJECT_DIR$/src/pages/profile/index.php" />
         <option value="$PROJECT_DIR$/src/pages/profile/style.css" />
         <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/src/pages/view_prod/index.php" />
         <option value="$PROJECT_DIR$/src/pages/view_prod/style.css" />
         <option value="$PROJECT_DIR$/src/pages/less_prod/index.php" />
+        <option value="$PROJECT_DIR$/src/pages/view_prod/index.php" />
+        <option value="$PROJECT_DIR$/src/procedures/classes/product.php" />
+        <option value="$PROJECT_DIR$/src/procedures/action/deleteProduct.php" />
       </list>
     </option>
   </component>
@@ -137,7 +144,27 @@
               <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="view_prod" type="462c0819:PsiDirectoryNode" />
+              <item name="plus_prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="procedures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="procedures" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="procedures" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +214,7 @@
       <updated>1561331096949</updated>
       <workItem from="1561331098277" duration="55000" />
       <workItem from="1561510242335" duration="5300000" />
-      <workItem from="1561599048560" duration="1334000" />
+      <workItem from="1561599048560" duration="5823000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;fix : buttons on footer&quot;">
       <created>1561515910144</created>
@@ -200,10 +227,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6689000" />
+    <option name="totallyTimeSpent" value="11178000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-200" width="1936" height="1056" extended-state="7" />
+    <frame x="-1928" y="-200" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
@@ -283,13 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/plus_prod/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="72" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/profile/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -318,13 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/view_prod/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
@@ -332,10 +345,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/style.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="195" selection-start-line="195" selection-end-line="226" selection-end-column="1" />
+        <state relative-caret-position="402">
+          <caret line="85" column="32" lean-forward="true" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -346,10 +359,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/index.php">
+    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="87" column="67" lean-forward="true" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
+        <state relative-caret-position="107">
+          <caret line="195" selection-start-line="195" selection-end-line="226" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/view_prod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/plus_prod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1921">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/procedures/classes/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/procedures/action/insertProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/procedures/action/deleteProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="61" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="61" />
         </state>
       </provider>
     </entry>

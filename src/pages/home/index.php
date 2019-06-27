@@ -43,7 +43,7 @@
             <div class="card__wrapper">
                 <img class="card__wrapper--img" src="./../../../assets/graphics.png" />
                 <p class="card__wrapper--text--graphics">Gerar Relatório</p>
-                <button class="card__wrapper--view" onclick="location.href='./../view_prod/?type=medicine';">Gerar</button>
+                <button class="card__wrapper--view" onclick="location.href='./../report';">Gerar</button>
             </div>
         </div>
     </div>

@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cd5c6f3-e563-4483-93a0-4e3664638985" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plus-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/less_prod/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/less_prod/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/less_prod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/less_prod/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plus_prod/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/plus_prod/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/plus_prod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/plus_prod/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/profile/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/profile/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/profile/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/view_prod/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/view_prod/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/view_prod/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/view_prod/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,21 +20,30 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/less_prod/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+            <state relative-caret-position="436">
+              <caret line="87" column="67" lean-forward="true" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/style.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/view_prod/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+            <state relative-caret-position="209">
+              <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/view_prod/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/less_prod/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="197" column="22" selection-start-line="197" selection-start-column="22" selection-end-line="197" selection-end-column="22" />
+            <state relative-caret-position="107">
+              <caret line="195" selection-start-line="195" selection-end-line="226" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -65,7 +65,13 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="megapaulo8 &lt;paulosantos194@hotmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,17 +84,19 @@
         <option value="$PROJECT_DIR$/src/pages/plus_prod/style.css" />
         <option value="$PROJECT_DIR$/src/pages/profile/index.php" />
         <option value="$PROJECT_DIR$/src/pages/profile/style.css" />
-        <option value="$PROJECT_DIR$/src/pages/less_prod/index.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/view_prod/index.php" />
+        <option value="$PROJECT_DIR$/src/pages/view_prod/style.css" />
+        <option value="$PROJECT_DIR$/src/pages/less_prod/index.php" />
       </list>
     </option>
   </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="241" />
-    <option name="y" value="-14" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-1653" />
+    <option name="y" value="-205" />
     <option name="width" value="1038" />
     <option name="height" value="688" />
   </component>
@@ -100,6 +108,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,11 +116,33 @@
               <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThinkingAPP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThinkingAPP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="view_prod" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -155,18 +186,27 @@
       <option name="presentableId" value="Default" />
       <updated>1561331096949</updated>
       <workItem from="1561331098277" duration="55000" />
-      <workItem from="1561510242335" duration="5111000" />
+      <workItem from="1561510242335" duration="5300000" />
+      <workItem from="1561599048560" duration="1334000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;fix : buttons on footer&quot;">
+      <created>1561515910144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561515910145</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5166000" />
+    <option name="totallyTimeSpent" value="6689000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1928" y="-200" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18759455" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -178,8 +218,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.21776815" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -190,14 +230,52 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;fix : buttons on footer&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;fix : buttons on footer&quot;" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess" />
     <entry file="file://$PROJECT_DIR$/src/pages/home/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -240,24 +318,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/style.css">
+    <entry file="file://$PROJECT_DIR$/src/pages/view_prod/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="197" column="22" selection-start-line="197" selection-start-column="22" selection-end-line="197" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+        <state relative-caret-position="209">
+          <caret line="77" column="47" selection-start-line="77" selection-start-column="47" selection-end-line="77" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        <state relative-caret-position="1309">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="195" selection-start-line="195" selection-end-line="226" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/view_prod/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="96" column="1" lean-forward="true" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/less_prod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="87" column="67" lean-forward="true" selection-start-line="87" selection-start-column="67" selection-end-line="87" selection-end-column="67" />
         </state>
       </provider>
     </entry>

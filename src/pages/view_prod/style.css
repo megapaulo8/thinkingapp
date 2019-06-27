@@ -8,7 +8,7 @@ body {
     font-weight: 200;
 }
 
-.toolbar__wrapper{
+.toolbar__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -73,8 +73,41 @@ td, th {
     text-align: left;
     padding: 8px;
     text-align: center;
-  }
-  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
+
+.footer__wrapper--link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.footer__wrapper--button {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    opacity: 0.5;
+    margin-bottom: -10px;
+}
+
+.footer__wrapper--text {
+    color: #ffffff;
+    opacity: 0.5;
+}
+
+.footer__wrapper--button-active {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+    margin-bottom: -10px;
+}
+
+.footer__wrapper--text-active {
+    color: #ffffff;
+}

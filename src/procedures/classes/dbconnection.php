@@ -35,10 +35,10 @@
         }
 
         public function connection(){
-            $this->setHost('127.0.0.1');
-            $this->setLogin('root');
-            $this->setPassword('');
-            $this->setDatabase('thinkingapp_db');
+            $this->setHost('us-cdbr-iron-east-02.cleardb.net');
+            $this->setLogin('bb326c5e31e512');
+            $this->setPassword('d53612da');
+            $this->setDatabase('heroku_d189b0ce11f93ea');
             return mysqli_connect($this->getHost(),$this->getLogin(),$this->getPassword(),$this->getDatabase());
         }
 

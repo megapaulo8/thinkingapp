@@ -35,13 +35,11 @@
         }
 
         public function connection(){
-            //Ligar com o DB usando o HEROKU 
-            $url = parse_url(getenv("mysql://bb326c5e31e512:d53612da@us-cdbr-iron-east-02.cleardb.net/heroku_d189b0ce11f93ea?reconnect=true"));
-            $this->setHost($url["us-cdbr-iron-east-02.cleardb.net"]);
-            $this->setLogin($url["bb326c5e31e512"]);
-            $this->setPassword($url["d53612da"]);
-            $this->setDatabase(substr($url["mysql://bb326c5e31e512:d53612da@us-cdbr-iron-east-02.cleardb.net/heroku_d189b0ce11f93ea?reconnect=true"], 1));
-            return new mysqli($this->getHost(),$this->getLogin(),$this->getPassword(),$this->getDatabase());
+            $this->setHost('127.0.0.1');
+            $this->setLogin('techva80_root');
+            $this->setPassword('7#Wo_GD?Iu5N');
+            $this->setDatabase('techva80_thinkingapp');
+            return mysqli_connect($this->getHost(),$this->getLogin(),$this->getPassword(),$this->getDatabase());
         }
 
         public function disconnect($connection){

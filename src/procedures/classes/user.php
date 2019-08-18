@@ -1,5 +1,5 @@
 <?php
-    require_once $_SERVER['DOCUMENT_ROOT'].'./thinkingapp/src/procedures/classes/dbconnection.php';
+    require_once 'dbconnection.php';
     class User {
         private $name, $email, $password, $job_role, $is_responsable;
 

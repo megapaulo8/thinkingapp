@@ -1,5 +1,5 @@
 <?php
-    require_once $_SERVER['DOCUMENT_ROOT'].'./thinkingapp/src/procedures/classes/dbconnection.php';
+    require_once 'dbconnection.php';
     class Product {
         private $prod_type, $entry_type, $name, $description, $amount, $expiration_date, $value;
         

@@ -4,7 +4,7 @@
         session_destroy();
         header('Location: ./../../../');
     }
-    require_once './../../procedures/classes/product.php';
+    require_once '../../procedures/classes/product.php';
     $products = new Product();
 ?>
 <!DOCTYPE html>

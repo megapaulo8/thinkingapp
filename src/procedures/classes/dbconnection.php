@@ -36,9 +36,9 @@
 
         public function connection(){
             $this->setHost('127.0.0.1');
-            $this->setLogin('techva80_root');
-            $this->setPassword('7#Wo_GD?Iu5N');
-            $this->setDatabase('techva80_thinkingapp');
+            $this->setLogin('root');
+            $this->setPassword('');
+            $this->setDatabase('thinkingapp_db');
             return mysqli_connect($this->getHost(),$this->getLogin(),$this->getPassword(),$this->getDatabase());
         }
 

@@ -6,9 +6,9 @@
     $user_login = new User();
     session_start();
     if ($user_login->authenticateUser($email,$password)){
-        return $user_login;
+        return true;
     }
     else {
-        return FALSE;
+        return false;
     }
 ?>

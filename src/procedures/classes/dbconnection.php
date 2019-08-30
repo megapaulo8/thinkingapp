@@ -37,8 +37,8 @@
         public function connection(){
             $this->setHost('127.0.0.1');
             $this->setLogin('root');
-            $this->setPassword('');
-            $this->setDatabase('thinkingapp_db');
+            $this->setPassword('paulo001');
+            $this->setDatabase('thinkingdb');
             return mysqli_connect($this->getHost(),$this->getLogin(),$this->getPassword(),$this->getDatabase());
         }
 

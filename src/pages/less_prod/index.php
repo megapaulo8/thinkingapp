@@ -5,7 +5,7 @@
         header('Location: ./../../../');
     }
     require_once './../../procedures/classes/product.php';
-    require_once $_SERVER['DOCUMENT_ROOT'].'./thinkingapp/src/procedures/classes/dbconnection.php';
+    require_once './../../procedures/classes/dbconnection.php';
     $connection = new Connection();
 ?>
 <!DOCTYPE html>

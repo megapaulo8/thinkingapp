@@ -73,7 +73,7 @@
             $connection = new Connection();
             $current_date = date("Y-m-d H:i:s");
             $new_product = mysqli_query($connection->connection(),"INSERT INTO products (prod_type,entry_type,name,description,amount,expiration_date,value,id_user) VALUES ('{$this->getProductType()}','{$this->getEntryType()}','{$this->getProductName()}','{$this->getProductDescription()}','{$this->getProductAmount()}','{$this->getExpirationDate()}','{$this->getProductValue()}','{$id}')");
-            mysqli_query($connection->connection(),"INSERT INTO products_log (prod_type,entry_type,name,description,amount,expiration_date,value,id_user,action_type,action_date) VALUES ('{$this->getProductType()}','{$this->getEntryType()}','{$this->getProductName()}','{$this->getProductDescription()}','{$this->getProductAmount()}','{$this->getExpirationDate()}','{$this->getProductValue()}','{$id}','input','{$current_date}')");
+            //mysqli_query($connection->connection(),"INSERT INTO products_log (prod_type,entry_type,name,description,amount,expiration_date,value,id_user,action_type,action_date) VALUES ('{$this->getProductType()}','{$this->getEntryType()}','{$this->getProductName()}','{$this->getProductDescription()}','{$this->getProductAmount()}','{$this->getExpirationDate()}','{$this->getProductValue()}','{$id}','input','{$current_date}')");
             return $new_product;
         }
 

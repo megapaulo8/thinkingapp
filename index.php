@@ -47,11 +47,11 @@
                     email:email,
                     password:password
                 }, function(resposta){
-                    if(resposta){
-                        window.location.href = "./src/pages/home/";
+                    if(resposta == true){
+                        alert("Houve um problema nas suas credenciais!");
                     }
                     else {
-                        alert("Houve um problema nas suas credenciais!");
+                        window.location.href = "./src/pages/home/";
                     }
                 });
                 return false;

@@ -8,7 +8,7 @@
     $prod_amount = $_REQUEST['prod_amount'];
     $expiration_date = $_REQUEST['expiration_date'];
     $prod_value = $_REQUEST['prod_value'];
-    require_once $_SERVER['DOCUMENT_ROOT'].'./thinkingapp/src/procedures/classes/product.php';
+    require_once './../classes/product.php';
     $product = new Product();
     if($product->insertNewProduct($prod_type,$entry_type,$prod_name,$prod_desc,$prod_amount,$expiration_date,$prod_value,$id)){
         return $product;

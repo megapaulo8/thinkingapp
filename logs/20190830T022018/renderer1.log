@@ -1,0 +1,11 @@
+[2019-08-30 03:24:53.450] [renderer1] [error] Data tree node not found: [object Object]: Error: Data tree node not found: [object Object]
+    at X.getDataNode (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:978:433)
+    at X.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:976:765)
+    at Generator.next (<anonymous>)
+    at file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:460
+    at new Promise (<anonymous>)
+    at n (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:237)
+    at X.expand (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:976:532)
+    at e.<anonymous> (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:5553:500)
+    at Generator.next (<anonymous>)
+    at r (file:///opt/visual-studio-code/resources/app/out/vs/workbench/workbench.main.js:35:293)

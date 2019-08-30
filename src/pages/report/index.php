@@ -29,22 +29,22 @@
             <div class="card__wrapper">
                 <img class="card__wrapper--img" src="./../../../assets/graphics.png" />
                 <p class="card__wrapper--text--graphics">Relatório Diário</p>
-                <button class="card__wrapper--view" onclick="location.href='./../report';">Gerar</button>
+                <button class="card__wrapper--view" onclick="location.href='./../report';" disabled>Gerar</button>
             </div>
             <div class="card__wrapper">
                 <img class="card__wrapper--img" src="./../../../assets/graphics.png" />
                 <p class="card__wrapper--text--graphics">Relatório Semanal</p>
-                <button class="card__wrapper--view" onclick="location.href='./../report';">Gerar</button>
+                <button class="card__wrapper--view" onclick="location.href='./../report';" disabled>Gerar</button>
             </div>
             <div class="card__wrapper">
                 <img class="card__wrapper--img" src="./../../../assets/graphics.png" />
                 <p class="card__wrapper--text--graphics">Relatório Mensal</p>
-                <button class="card__wrapper--view" onclick="location.href='./../report';">Gerar</button>
+                <button class="card__wrapper--view" onclick="location.href='./../report';" disabled>Gerar</button>
             </div>
             <div class="card__wrapper">
                 <img class="card__wrapper--img" src="./../../../assets/graphics.png" />
                 <p class="card__wrapper--text--graphics">Relatório Anual</p>
-                <button class="card__wrapper--view" onclick="location.href='./../report';">Gerar</button>
+                <button class="card__wrapper--view" onclick="location.href='./../report';" disabled>Gerar</button>
             </div>
         </div>
     </div>
